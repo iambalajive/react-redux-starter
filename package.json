@@ -1,0 +1,30 @@
+{
+  "name": "react-redux-starter",
+  "version": "1.0.0",
+  "description": "A starter pack for bootstraping react apps with redux support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iambalajive/react-redux-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iambalajive/react-redux-starter/issues"
+  },
+  "homepage": "https://github.com/iambalajive/react-redux-starter#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.1",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
